@@ -1,0 +1,211 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;valid-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "valid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 915117300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "Features\\Step-definitions\\login.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9457764600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user logs in with valid credentials",
+            "match": {
+              "location": "Features\\Step-definitions\\login.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2105328300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "dashboard should be displayed",
+            "match": {
+              "location": "Features\\Step-definitions\\login.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 552702300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 293334500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;invalid-login-with-invalid-username",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "invalid login with invalid username",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 546986800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "Features\\Step-definitions\\login.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8553190799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user logs in with invalid username",
+            "match": {
+              "location": "Features\\Step-definitions\\login.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2200467000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "error message should be displayed",
+            "match": {
+              "location": "Features\\Step-definitions\\login.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 373072399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 276388800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;invalid-login-with-invalid-password",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "invalid login with invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 527424699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "Features\\Step-definitions\\login.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9327554499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user logs in with invalid password",
+            "match": {
+              "location": "Features\\Step-definitions\\login.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2095395799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "error message should be displayed",
+            "match": {
+              "location": "Features\\Step-definitions\\login.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 369012300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 257853000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
